@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bluetoothphonemouse.buildtest.BluetoothTest">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/XPos"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/hello"/>
+        <TextView
+            android:id="@+id/YPos"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/hello"/>
+        <TextView
+            android:id="@+id/ZPos"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/hello"/>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Calibrate"
+            android:onClick="calibrate"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
